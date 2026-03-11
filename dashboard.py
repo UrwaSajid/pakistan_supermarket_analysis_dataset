@@ -53,12 +53,22 @@ st.markdown("""
   [data-testid="stHeader"] { background: transparent !important; }
   [data-testid="stToolbar"] { visibility: hidden; }
 
-  /* ── Hide ALL sidebar open/close toggle buttons ── */
-  [data-testid="stSidebarCollapseButton"],
-  [data-testid="collapsedControl"],
-  button[aria-label="Close sidebar"],
-  button[aria-label="Open sidebar"],
-  button:has(> [data-testid="stIconMaterial"]) { display: none !important; }
+  /* ── Nuke every sidebar collapse/expand button variant ── */
+  html body [data-testid="stSidebarCollapseButton"],
+  html body [data-testid="stSidebarHeader"] button,
+  html body [data-testid="collapsedControl"],
+  html body button[aria-label="Close sidebar"],
+  html body button[aria-label="Open sidebar"],
+  html body button:has([data-testid="stIconMaterial"]) {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+  }
 
   /* ── Sidebar ── */
   [data-testid="stSidebar"],
