@@ -169,12 +169,20 @@ def load_data() -> dict:
 
     ana = ROOT / "data" / "analysis"
 
-    proc_f  = latest(ROOT / "data" / "processed", "*.parquet")
-    match_f = latest(ROOT / "data" / "matched",   "*.parquet")
-    sum_f   = latest(ana, "analysis_summary_*.json")
+    def load_df(directory: Path, parquet_pat: str, csv_pat: str) -> pd.DataFrame:
+        """Load parquet if available, otherwise fall back to CSV."""
+        pq = latest(directory, parquet_pat)
+        if pq:
+            return pd.read_parquet(pq)
+        cv = latest(directory, csv_pat)
+        if cv:
+            return pd.read_csv(cv, low_memory=False)
+        return pd.DataFrame()
 
-    processed = pd.read_parquet(proc_f)  if proc_f  else pd.DataFrame()
-    matched   = pd.read_parquet(match_f) if match_f else pd.DataFrame()
+    sum_f = latest(ana, "analysis_summary_*.json")
+
+    processed = load_df(ROOT / "data" / "processed", "*.parquet", "*.csv")
+    matched   = load_df(ROOT / "data" / "matched",   "*.parquet", "*.csv")
 
     def csv(name):
         p = ana / name
