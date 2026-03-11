@@ -50,6 +50,8 @@ st.markdown("""
     background-color: #eef2f7 !important;
   }
   #MainMenu, footer, header { visibility: hidden; }
+  /* Keep sidebar reopen arrow visible when sidebar is collapsed */
+  [data-testid="collapsedControl"] { visibility: visible !important; display: flex !important; }
 
   /* ── Sidebar ── */
   [data-testid="stSidebar"],
