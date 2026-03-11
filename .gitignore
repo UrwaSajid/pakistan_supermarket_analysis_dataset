@@ -10,7 +10,6 @@ venv/
 data/raw/*.parquet
 data/processed/*.parquet
 data/matched/*.parquet
-data/analysis/product_dispersion.csv
 
 # Logs & debug outputs
 logs/

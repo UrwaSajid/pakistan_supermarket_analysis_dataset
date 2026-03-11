@@ -1,5 +1,7 @@
 # Pakistan Supermarket Price Intelligence
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pakistan-supermarket-analysis.streamlit.app)
+
 A complete data engineering pipeline that scrapes, cleans, validates, matches, and analyses product prices across **6 major Pakistani supermarket chains** in **5 cities** — yielding 116,346 products and 558 cross-store matched product groups.
 
 > **Key finding:** The same product costs up to **3.54× more** at one store versus another. Imtiaz (Karachi) is the cheapest chain (price index 0.882); Springs (Lahore) is the most expensive (1.214).

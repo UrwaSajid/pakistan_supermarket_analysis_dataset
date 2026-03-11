@@ -36,3 +36,7 @@ html5lib>=1.1
 
 # ── Optional: SQLite ORM (if switching to DB storage) ────────────────────────
 # sqlalchemy>=2.0.0
+
+# -- Dashboard --------------------------------------------------
+streamlit>=1.40.0
+plotly>=6.0.0
