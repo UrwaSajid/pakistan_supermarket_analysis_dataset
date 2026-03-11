@@ -1,6 +1,8 @@
 # Pakistan Supermarket Price Intelligence
 ## Project Report — March 2026
 
+**Live Dashboard:** https://supermarket-analyser-pk.streamlit.app/
+
 ---
 
 ## 1. The Big Picture
