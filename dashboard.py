@@ -49,9 +49,9 @@ st.markdown("""
   [data-testid="stMain"] > div:first-child {
     background-color: #eef2f7 !important;
   }
-  #MainMenu, footer, header { visibility: hidden; }
-  /* Keep sidebar reopen arrow visible when sidebar is collapsed */
-  [data-testid="collapsedControl"] { visibility: visible !important; display: flex !important; }
+  #MainMenu, footer { visibility: hidden; }
+  [data-testid="stHeader"] { background: transparent !important; }
+  [data-testid="stToolbar"] { visibility: hidden; }
 
   /* ── Sidebar ── */
   [data-testid="stSidebar"],
