@@ -51,23 +51,28 @@ st.markdown("""
   }
   #MainMenu, footer { visibility: hidden; }
   [data-testid="stHeader"] { background: transparent !important; }
-  [data-testid="stToolbar"] { visibility: hidden; }
+  /* Hide only the deploy/share toolbar buttons, NOT the sidebar toggle */
+  [data-testid="stToolbarActions"] { visibility: hidden; }
 
-  /* ── Nuke every sidebar collapse/expand button variant ── */
-  html body [data-testid="stSidebarCollapseButton"],
-  html body [data-testid="stSidebarHeader"] button,
-  html body [data-testid="collapsedControl"],
-  html body button[aria-label="Close sidebar"],
-  html body button[aria-label="Open sidebar"],
-  html body button:has([data-testid="stIconMaterial"]) {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    overflow: hidden !important;
-    position: absolute !important;
+  /* ── Sidebar collapse/reopen toggle — always visible & styled ── */
+  [data-testid="stSidebarCollapseButton"],
+  [data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 9999 !important;
+  }
+  [data-testid="stSidebarCollapseButton"] button,
+  [data-testid="collapsedControl"] button {
+    background-color: #1e3a5f !important;
+    border-radius: 50% !important;
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  [data-testid="stSidebarCollapseButton"] svg,
+  [data-testid="collapsedControl"] svg {
+    fill: #ffffff !important;
+    color: #ffffff !important;
   }
 
   /* ── Sidebar ── */
@@ -118,7 +123,7 @@ st.markdown("""
 
   /* ── Page banner ── */
   .page-banner {
-    background: #0f172a;
+    background: #0f171a;
     border-radius: 14px;
     padding: 1.1rem 1.5rem;
     margin-bottom: 1rem;
