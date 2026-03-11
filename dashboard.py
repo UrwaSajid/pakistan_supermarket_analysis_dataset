@@ -53,6 +53,23 @@ st.markdown("""
   [data-testid="stHeader"] { background: transparent !important; }
   [data-testid="stToolbar"] { visibility: hidden; }
 
+  /* ── Sidebar collapse/expand button — always visible ── */
+  [data-testid="collapsedControl"] {
+    visibility: visible !important;
+    display: flex !important;
+    z-index: 9999 !important;
+  }
+  [data-testid="collapsedControl"] button {
+    background-color: #0f172a !important;
+    border-radius: 0 8px 8px 0 !important;
+  }
+  [data-testid="collapsedControl"] svg,
+  [data-testid="collapsedControl"] svg path {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+    color: #ffffff !important;
+  }
+
   /* ── Sidebar ── */
   [data-testid="stSidebar"],
   [data-testid="stSidebarContent"] {
