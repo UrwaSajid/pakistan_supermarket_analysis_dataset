@@ -1,0 +1,1529 @@
+{
+  "product_dispersion": {
+    "rows": 10613,
+    "unique_groups": 558
+  },
+  "store_metrics": [
+    {
+      "store": "imtiaz",
+      "city": "karachi",
+      "avg_category_price_index": 0.8821,
+      "median_price_deviation": -0.044,
+      "price_volatility_score": 0.2159,
+      "price_leadership_freq": 0.7692
+    },
+    {
+      "store": "metro",
+      "city": "faisalabad",
+      "avg_category_price_index": 0.9253,
+      "median_price_deviation": -0.0678,
+      "price_volatility_score": 0.335,
+      "price_leadership_freq": 0.5661
+    },
+    {
+      "store": "metro",
+      "city": "lahore",
+      "avg_category_price_index": 0.9642,
+      "median_price_deviation": -0.0434,
+      "price_volatility_score": 0.3299,
+      "price_leadership_freq": 0.5498
+    },
+    {
+      "store": "metro",
+      "city": "karachi",
+      "avg_category_price_index": 0.9688,
+      "median_price_deviation": -0.0434,
+      "price_volatility_score": 0.3298,
+      "price_leadership_freq": 0.5214
+    },
+    {
+      "store": "metro",
+      "city": "islamabad",
+      "avg_category_price_index": 0.9379,
+      "median_price_deviation": -0.0544,
+      "price_volatility_score": 0.3265,
+      "price_leadership_freq": 0.4828
+    },
+    {
+      "store": "metro",
+      "city": "multan",
+      "avg_category_price_index": 0.9629,
+      "median_price_deviation": -0.033,
+      "price_volatility_score": 0.3282,
+      "price_leadership_freq": 0.4162
+    },
+    {
+      "store": "chaseup",
+      "city": "karachi",
+      "avg_category_price_index": 0.9194,
+      "median_price_deviation": 0.0218,
+      "price_volatility_score": 0.2527,
+      "price_leadership_freq": 0.4
+    },
+    {
+      "store": "naheed",
+      "city": "karachi",
+      "avg_category_price_index": 1.0655,
+      "median_price_deviation": 0.0526,
+      "price_volatility_score": 0.3016,
+      "price_leadership_freq": 0.2289
+    },
+    {
+      "store": "springs",
+      "city": "lahore",
+      "avg_category_price_index": 1.2136,
+      "median_price_deviation": 0.1504,
+      "price_volatility_score": 0.3605,
+      "price_leadership_freq": 0.2017
+    },
+    {
+      "store": "alfatah",
+      "city": "lahore",
+      "avg_category_price_index": 1.0169,
+      "median_price_deviation": 0.0169,
+      "price_volatility_score": 0.0239,
+      "price_leadership_freq": 0.0
+    }
+  ],
+  "ldi": {
+    "ldi": [
+      {
+        "store": "metro",
+        "n_leader": 2212,
+        "ldi": 3.96415770609319
+      },
+      {
+        "store": "springs",
+        "n_leader": 110,
+        "ldi": 0.1971326164874552
+      },
+      {
+        "store": "imtiaz",
+        "n_leader": 40,
+        "ldi": 0.07168458781362007
+      },
+      {
+        "store": "naheed",
+        "n_leader": 19,
+        "ldi": 0.034050179211469536
+      },
+      {
+        "store": "chaseup",
+        "n_leader": 2,
+        "ldi": 0.0035842293906810036
+      }
+    ],
+    "weighted_ldi": [
+      {
+        "store": "metro",
+        "weighted_leader_sum": 402597,
+        "weighted_ldi": 0.2104898552649259
+      },
+      {
+        "store": "imtiaz",
+        "weighted_leader_sum": 9594,
+        "weighted_ldi": 0.0050160325869584195
+      },
+      {
+        "store": "springs",
+        "weighted_leader_sum": 6010,
+        "weighted_ldi": 0.0031422092815947575
+      },
+      {
+        "store": "naheed",
+        "weighted_leader_sum": 2573,
+        "weighted_ldi": 0.0013452420102401516
+      },
+      {
+        "store": "chaseup",
+        "weighted_leader_sum": 20,
+        "weighted_ldi": 1.0456603266538294e-05
+      }
+    ],
+    "category_ldi": [
+      {
+        "store": "alfatah",
+        "category": "Cat Food",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "chaseup",
+        "category": "Frozen",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "imtiaz",
+        "category": "Tea Coffee",
+        "cat_ldi": 1.0,
+        "leader_count": 13,
+        "total_groups": 13
+      },
+      {
+        "store": "imtiaz",
+        "category": "Frozen",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "metro",
+        "category": "Aerosols",
+        "cat_ldi": 1.0,
+        "leader_count": 6,
+        "total_groups": 6
+      },
+      {
+        "store": "metro",
+        "category": "Air Sprays",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Antibacterial",
+        "cat_ldi": 1.0,
+        "leader_count": 15,
+        "total_groups": 15
+      },
+      {
+        "store": "metro",
+        "category": "Anti Perspirants",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Bath and Soap",
+        "cat_ldi": 1.0,
+        "leader_count": 15,
+        "total_groups": 15
+      },
+      {
+        "store": "metro",
+        "category": "Bakery",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Baby",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Cake Mixes and Baking Add Ons",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Butter and Margarine",
+        "cat_ldi": 1.0,
+        "leader_count": 9,
+        "total_groups": 9
+      },
+      {
+        "store": "metro",
+        "category": "Butter",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "metro",
+        "category": "Breakfast",
+        "cat_ldi": 1.0,
+        "leader_count": 17,
+        "total_groups": 17
+      },
+      {
+        "store": "metro",
+        "category": "Breads and Buns",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Crisps and Popcorn",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "metro",
+        "category": "Desserts",
+        "cat_ldi": 1.0,
+        "leader_count": 14,
+        "total_groups": 14
+      },
+      {
+        "store": "metro",
+        "category": "Detergents and Laundry Soaps",
+        "cat_ldi": 1.0,
+        "leader_count": 12,
+        "total_groups": 12
+      },
+      {
+        "store": "metro",
+        "category": "Dishwashing Liquids",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Facewashes",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Cakes and Chocolates",
+        "cat_ldi": 1.0,
+        "leader_count": 6,
+        "total_groups": 6
+      },
+      {
+        "store": "metro",
+        "category": "Canned Food",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Cereals",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Cheese",
+        "cat_ldi": 1.0,
+        "leader_count": 20,
+        "total_groups": 20
+      },
+      {
+        "store": "metro",
+        "category": "Cheese and Cream",
+        "cat_ldi": 1.0,
+        "leader_count": 23,
+        "total_groups": 23
+      },
+      {
+        "store": "metro",
+        "category": "Commodities",
+        "cat_ldi": 1.0,
+        "leader_count": 22,
+        "total_groups": 22
+      },
+      {
+        "store": "metro",
+        "category": "Conditioners",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "Cooking Essentials",
+        "cat_ldi": 1.0,
+        "leader_count": 19,
+        "total_groups": 19
+      },
+      {
+        "store": "metro",
+        "category": "Cooking Ingredients",
+        "cat_ldi": 1.0,
+        "leader_count": 21,
+        "total_groups": 21
+      },
+      {
+        "store": "metro",
+        "category": "Cooking Oil",
+        "cat_ldi": 1.0,
+        "leader_count": 14,
+        "total_groups": 14
+      },
+      {
+        "store": "metro",
+        "category": "Crisps",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Fries",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Fragrances",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Fragrant",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Food",
+        "cat_ldi": 1.0,
+        "leader_count": 11,
+        "total_groups": 11
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Meat",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Disinfectants",
+        "cat_ldi": 1.0,
+        "leader_count": 9,
+        "total_groups": 9
+      },
+      {
+        "store": "metro",
+        "category": "Flavored Milk",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Flour",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Meat and Seafood",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Fruits and Vegetables",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "metro",
+        "category": "Health and Beauty",
+        "cat_ldi": 1.0,
+        "leader_count": 46,
+        "total_groups": 46
+      },
+      {
+        "store": "metro",
+        "category": "Home Appliances",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Hand and Body Washes",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Grocery",
+        "cat_ldi": 1.0,
+        "leader_count": 19,
+        "total_groups": 19
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Seafood",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Frozen Ready to Cook",
+        "cat_ldi": 1.0,
+        "leader_count": 10,
+        "total_groups": 10
+      },
+      {
+        "store": "springs",
+        "category": "Shampoo & Conditioner",
+        "cat_ldi": 1.0,
+        "leader_count": 29,
+        "total_groups": 29
+      },
+      {
+        "store": "springs",
+        "category": "Shaving Foam/cream & Razors",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Shoe Care",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Mineral & Flavored Water",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "springs",
+        "category": "Mist/roll On & Deos",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Mouth Wash",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Home Baking",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "House Cleaning",
+        "cat_ldi": 1.0,
+        "leader_count": 12,
+        "total_groups": 12
+      },
+      {
+        "store": "metro",
+        "category": "Juices",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Household",
+        "cat_ldi": 1.0,
+        "leader_count": 26,
+        "total_groups": 26
+      },
+      {
+        "store": "metro",
+        "category": "Ice Cream",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "Jellies and Custards",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "metro",
+        "category": "Kitchen Cleaning",
+        "cat_ldi": 1.0,
+        "leader_count": 13,
+        "total_groups": 13
+      },
+      {
+        "store": "metro",
+        "category": "Kebab and Koftas",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Milk",
+        "cat_ldi": 1.0,
+        "leader_count": 22,
+        "total_groups": 22
+      },
+      {
+        "store": "metro",
+        "category": "Men Grooming",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Oral Care",
+        "cat_ldi": 1.0,
+        "leader_count": 11,
+        "total_groups": 11
+      },
+      {
+        "store": "metro",
+        "category": "Packaged Food",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Miscellaneous",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Nuggets and Snacks",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Nutritional Drinks",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Oil and Ghee",
+        "cat_ldi": 1.0,
+        "leader_count": 18,
+        "total_groups": 18
+      },
+      {
+        "store": "metro",
+        "category": "Oils and Serums",
+        "cat_ldi": 1.0,
+        "leader_count": 6,
+        "total_groups": 6
+      },
+      {
+        "store": "metro",
+        "category": "Olive Oil",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "metro",
+        "category": "Powder Drinks",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Pulses",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Packaged Spices",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "metro",
+        "category": "Plain Yogurt and Flavored yogurt",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Red Syrups",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "metro",
+        "category": "Red Syrups and Squashes",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "Salt and Pepper",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Rice",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "UHT and Pasteurized Milk",
+        "cat_ldi": 1.0,
+        "leader_count": 10,
+        "total_groups": 10
+      },
+      {
+        "store": "metro",
+        "category": "Vinegars and Sauces",
+        "cat_ldi": 1.0,
+        "leader_count": 14,
+        "total_groups": 14
+      },
+      {
+        "store": "metro",
+        "category": "Samosas and Rolls",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Sauces and Seasonings",
+        "cat_ldi": 1.0,
+        "leader_count": 20,
+        "total_groups": 20
+      },
+      {
+        "store": "metro",
+        "category": "Seasonings",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "Shampoos",
+        "cat_ldi": 1.0,
+        "leader_count": 24,
+        "total_groups": 24
+      },
+      {
+        "store": "metro",
+        "category": "Shoe Polish",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "metro",
+        "category": "Skin Care",
+        "cat_ldi": 1.0,
+        "leader_count": 16,
+        "total_groups": 16
+      },
+      {
+        "store": "metro",
+        "category": "Snacks",
+        "cat_ldi": 1.0,
+        "leader_count": 11,
+        "total_groups": 11
+      },
+      {
+        "store": "metro",
+        "category": "Soft Drinks",
+        "cat_ldi": 1.0,
+        "leader_count": 20,
+        "total_groups": 20
+      },
+      {
+        "store": "metro",
+        "category": "Spices and Herbs",
+        "cat_ldi": 1.0,
+        "leader_count": 19,
+        "total_groups": 19
+      },
+      {
+        "store": "metro",
+        "category": "Sugar",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Tea",
+        "cat_ldi": 1.0,
+        "leader_count": 10,
+        "total_groups": 10
+      },
+      {
+        "store": "metro",
+        "category": "Tea and Coffee",
+        "cat_ldi": 1.0,
+        "leader_count": 12,
+        "total_groups": 12
+      },
+      {
+        "store": "metro",
+        "category": "Toilet Supplies",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "metro",
+        "category": "Toiletries",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "naheed",
+        "category": "Tea Coffee",
+        "cat_ldi": 1.0,
+        "leader_count": 13,
+        "total_groups": 13
+      },
+      {
+        "store": "springs",
+        "category": "After Shave",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Water",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "metro",
+        "category": "Women Care",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Baby Lotion",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "naheed",
+        "category": "Kitchen Appliances",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Cheese & Cream",
+        "cat_ldi": 1.0,
+        "leader_count": 23,
+        "total_groups": 23
+      },
+      {
+        "store": "springs",
+        "category": "Cleaning",
+        "cat_ldi": 1.0,
+        "leader_count": 34,
+        "total_groups": 34
+      },
+      {
+        "store": "springs",
+        "category": "Cereals, Oats & Granolas",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Cat Food",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Canned & Packaged Food",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "springs",
+        "category": "Car Care & Accessories",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Butter & Margarine",
+        "cat_ldi": 1.0,
+        "leader_count": 14,
+        "total_groups": 14
+      },
+      {
+        "store": "springs",
+        "category": "Bread Crumbs",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Bread & Dough",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Bodyspray",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Sports, Energy & Wellness Drinks",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Sugar,sweet Recepie,baking & Dessert",
+        "cat_ldi": 1.0,
+        "leader_count": 25,
+        "total_groups": 25
+      },
+      {
+        "store": "springs",
+        "category": "Talcum Powder/prickly Heat Powder",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Shower Gel",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "springs",
+        "category": "Skincare",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Soap & Hand Wash",
+        "cat_ldi": 1.0,
+        "leader_count": 23,
+        "total_groups": 23
+      },
+      {
+        "store": "springs",
+        "category": "Oil & Ghee",
+        "cat_ldi": 1.0,
+        "leader_count": 34,
+        "total_groups": 34
+      },
+      {
+        "store": "springs",
+        "category": "Pasta Noodles & Vermicelli",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Perfumery Range",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Pest Control",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "springs",
+        "category": "Chips, Snacks & Popcorn",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Chocolates",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Face & Skin Care",
+        "cat_ldi": 1.0,
+        "leader_count": 27,
+        "total_groups": 27
+      },
+      {
+        "store": "springs",
+        "category": "Fabric Freshner & Stain Remover",
+        "cat_ldi": 1.0,
+        "leader_count": 4,
+        "total_groups": 4
+      },
+      {
+        "store": "springs",
+        "category": "Fish & Sea Food",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Flavoring Syrup & Powder",
+        "cat_ldi": 1.0,
+        "leader_count": 10,
+        "total_groups": 10
+      },
+      {
+        "store": "springs",
+        "category": "Kitchen Appliances",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Food Color & Essence",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Fruits & Vegetables",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "springs",
+        "category": "Hair Oil",
+        "cat_ldi": 1.0,
+        "leader_count": 6,
+        "total_groups": 6
+      },
+      {
+        "store": "springs",
+        "category": "Home Appliances",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Hair Remover/nail Remover",
+        "cat_ldi": 1.0,
+        "leader_count": 5,
+        "total_groups": 5
+      },
+      {
+        "store": "springs",
+        "category": "Home Fragrance & Air Freshener",
+        "cat_ldi": 1.0,
+        "leader_count": 3,
+        "total_groups": 3
+      },
+      {
+        "store": "springs",
+        "category": "Ice Cream & Ice Lollies",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Masala, Herbs & Seasoning",
+        "cat_ldi": 1.0,
+        "leader_count": 24,
+        "total_groups": 24
+      },
+      {
+        "store": "springs",
+        "category": "Jam, Honey & Spreads",
+        "cat_ldi": 1.0,
+        "leader_count": 12,
+        "total_groups": 12
+      },
+      {
+        "store": "springs",
+        "category": "Juices, Malts & Smoothies",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "springs",
+        "category": "Ketchups & Mayonnaise",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Lips",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Milk,flavor Milk & Tea Whitener",
+        "cat_ldi": 1.0,
+        "leader_count": 23,
+        "total_groups": 23
+      },
+      {
+        "store": "springs",
+        "category": "Men",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Meat & Poultry",
+        "cat_ldi": 1.0,
+        "leader_count": 8,
+        "total_groups": 8
+      },
+      {
+        "store": "springs",
+        "category": "Yogurt",
+        "cat_ldi": 1.0,
+        "leader_count": 7,
+        "total_groups": 7
+      },
+      {
+        "store": "springs",
+        "category": "Tea & Coffee",
+        "cat_ldi": 1.0,
+        "leader_count": 18,
+        "total_groups": 18
+      },
+      {
+        "store": "springs",
+        "category": "Wraps & Pittas",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Ready To Cook & Desserts",
+        "cat_ldi": 1.0,
+        "leader_count": 6,
+        "total_groups": 6
+      },
+      {
+        "store": "springs",
+        "category": "Rice & Flour",
+        "cat_ldi": 1.0,
+        "leader_count": 9,
+        "total_groups": 9
+      },
+      {
+        "store": "springs",
+        "category": "Salt",
+        "cat_ldi": 1.0,
+        "leader_count": 2,
+        "total_groups": 2
+      },
+      {
+        "store": "springs",
+        "category": "Soft Drinks & Soda",
+        "cat_ldi": 1.0,
+        "leader_count": 25,
+        "total_groups": 25
+      },
+      {
+        "store": "springs",
+        "category": "Soups & Cubes",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Toothpaste",
+        "cat_ldi": 1.0,
+        "leader_count": 10,
+        "total_groups": 10
+      },
+      {
+        "store": "springs",
+        "category": "Women",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Prescription",
+        "cat_ldi": 1.0,
+        "leader_count": 1,
+        "total_groups": 1
+      },
+      {
+        "store": "springs",
+        "category": "Sexual Wellness",
+        "cat_ldi": 1.0,
+        "leader_count": 15,
+        "total_groups": 15
+      },
+      {
+        "store": "springs",
+        "category": "Sauces, Pickles & Pastes",
+        "cat_ldi": 1.0,
+        "leader_count": 19,
+        "total_groups": 19
+      },
+      {
+        "store": "naheed",
+        "category": "Sexual Wellness",
+        "cat_ldi": 0.9333,
+        "leader_count": 14,
+        "total_groups": 15
+      },
+      {
+        "store": "springs",
+        "category": "Baby Milk",
+        "cat_ldi": 0.9167,
+        "leader_count": 11,
+        "total_groups": 12
+      },
+      {
+        "store": "metro",
+        "category": "Baby Milk",
+        "cat_ldi": 0.9167,
+        "leader_count": 11,
+        "total_groups": 12
+      },
+      {
+        "store": "metro",
+        "category": "Hair Care",
+        "cat_ldi": 0.8966,
+        "leader_count": 26,
+        "total_groups": 29
+      },
+      {
+        "store": "naheed",
+        "category": "Juices",
+        "cat_ldi": 0.875,
+        "leader_count": 7,
+        "total_groups": 8
+      },
+      {
+        "store": "metro",
+        "category": "Baby Food",
+        "cat_ldi": 0.8571,
+        "leader_count": 12,
+        "total_groups": 14
+      },
+      {
+        "store": "metro",
+        "category": "Dairy",
+        "cat_ldi": 0.8293,
+        "leader_count": 34,
+        "total_groups": 41
+      },
+      {
+        "store": "springs",
+        "category": "Laundry",
+        "cat_ldi": 0.8,
+        "leader_count": 28,
+        "total_groups": 35
+      },
+      {
+        "store": "metro",
+        "category": "Laundry",
+        "cat_ldi": 0.7143,
+        "leader_count": 25,
+        "total_groups": 35
+      },
+      {
+        "store": "metro",
+        "category": "Yogurt",
+        "cat_ldi": 0.7143,
+        "leader_count": 5,
+        "total_groups": 7
+      },
+      {
+        "store": "metro",
+        "category": "Beverages",
+        "cat_ldi": 0.6724,
+        "leader_count": 39,
+        "total_groups": 58
+      },
+      {
+        "store": "naheed",
+        "category": "Breakfast",
+        "cat_ldi": 0.5882,
+        "leader_count": 10,
+        "total_groups": 17
+      },
+      {
+        "store": "springs",
+        "category": "Baby Food",
+        "cat_ldi": 0.5714,
+        "leader_count": 8,
+        "total_groups": 14
+      },
+      {
+        "store": "naheed",
+        "category": "Beverages",
+        "cat_ldi": 0.4138,
+        "leader_count": 24,
+        "total_groups": 58
+      },
+      {
+        "store": "imtiaz",
+        "category": "Beverages",
+        "cat_ldi": 0.4138,
+        "leader_count": 24,
+        "total_groups": 58
+      },
+      {
+        "store": "imtiaz",
+        "category": "Dairy",
+        "cat_ldi": 0.2439,
+        "leader_count": 10,
+        "total_groups": 41
+      },
+      {
+        "store": "naheed",
+        "category": "Dairy",
+        "cat_ldi": 0.2439,
+        "leader_count": 10,
+        "total_groups": 41
+      },
+      {
+        "store": "springs",
+        "category": "Hair Care",
+        "cat_ldi": 0.2069,
+        "leader_count": 6,
+        "total_groups": 29
+      },
+      {
+        "store": "naheed",
+        "category": "Hair Care",
+        "cat_ldi": 0.1034,
+        "leader_count": 3,
+        "total_groups": 29
+      }
+    ]
+  },
+  "correlations": {
+    "size_vs_dispersion": {
+      "pearson_r": -0.1147,
+      "pearson_p": 0.0,
+      "spearman_r": -0.1462,
+      "spearman_p": 0.0,
+      "interpretation": "Larger-sized products show less price dispersion (r=-0.115, p=0.000)"
+    },
+    "competition_vs_spread": {
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "spearman_r": NaN,
+      "spearman_p": NaN,
+      "interpretation": "Products sold in more stores show narrower price spreads (r=nan, p=nan)"
+    },
+    "brand_tier_vs_volatility": {
+      "point_biserial_r": -0.0002,
+      "p_value": 0.9857,
+      "interpretation": "Premium brands show lower price volatility vs economy brands (r=-0.000, p=0.986)"
+    },
+    "city_price_correlation": {
+      "pearson": {
+        "faisalabad": {
+          "faisalabad": 1.0,
+          "islamabad": 0.9825457695208673,
+          "karachi": 0.9654303952519132,
+          "lahore": 0.8026908097423974,
+          "multan": 0.962408138128788
+        },
+        "islamabad": {
+          "faisalabad": 0.9825457695208673,
+          "islamabad": 1.0,
+          "karachi": 0.9889415042888088,
+          "lahore": 0.8615782872888625,
+          "multan": 0.9764734479429226
+        },
+        "karachi": {
+          "faisalabad": 0.9654303952519132,
+          "islamabad": 0.9889415042888088,
+          "karachi": 1.0,
+          "lahore": 0.9675190878848757,
+          "multan": 0.9789605890546322
+        },
+        "lahore": {
+          "faisalabad": 0.8026908097423974,
+          "islamabad": 0.8615782872888625,
+          "karachi": 0.9675190878848757,
+          "lahore": 1.0,
+          "multan": 0.8283917161791132
+        },
+        "multan": {
+          "faisalabad": 0.962408138128788,
+          "islamabad": 0.9764734479429226,
+          "karachi": 0.9789605890546322,
+          "lahore": 0.8283917161791132,
+          "multan": 1.0
+        }
+      },
+      "spearman": {
+        "faisalabad": {
+          "faisalabad": 1.0,
+          "islamabad": 0.9678304016599347,
+          "karachi": 0.9418783518198813,
+          "lahore": 0.9458556038639397,
+          "multan": 0.9169535431224035
+        },
+        "islamabad": {
+          "faisalabad": 0.9678304016599347,
+          "islamabad": 1.0,
+          "karachi": 0.976273379379049,
+          "lahore": 0.9575937825845692,
+          "multan": 0.9456713301967467
+        },
+        "karachi": {
+          "faisalabad": 0.9418783518198813,
+          "islamabad": 0.976273379379049,
+          "karachi": 1.0,
+          "lahore": 0.9683550935043517,
+          "multan": 0.9406161491129135
+        },
+        "lahore": {
+          "faisalabad": 0.9458556038639397,
+          "islamabad": 0.9575937825845692,
+          "karachi": 0.9683550935043517,
+          "lahore": 1.0,
+          "multan": 0.9458358332543999
+        },
+        "multan": {
+          "faisalabad": 0.9169535431224035,
+          "islamabad": 0.9456713301967467,
+          "karachi": 0.9406161491129135,
+          "lahore": 0.9458358332543999,
+          "multan": 1.0
+        }
+      }
+    },
+    "cross_store_sync": {
+      "correlation_matrix": {
+        "alfatah": {
+          "alfatah": NaN,
+          "chaseup": NaN,
+          "imtiaz": NaN,
+          "metro": NaN,
+          "naheed": NaN,
+          "springs": NaN
+        },
+        "chaseup": {
+          "alfatah": NaN,
+          "chaseup": 1.0,
+          "imtiaz": 0.05539496773674774,
+          "metro": NaN,
+          "naheed": NaN,
+          "springs": NaN
+        },
+        "imtiaz": {
+          "alfatah": NaN,
+          "chaseup": 0.05539496773674774,
+          "imtiaz": 1.0,
+          "metro": -0.5038938270546679,
+          "naheed": 0.789561534162365,
+          "springs": NaN
+        },
+        "metro": {
+          "alfatah": NaN,
+          "chaseup": NaN,
+          "imtiaz": -0.5038938270546679,
+          "metro": 1.0,
+          "naheed": -0.06873715684094137,
+          "springs": 0.7638032331479099
+        },
+        "naheed": {
+          "alfatah": NaN,
+          "chaseup": NaN,
+          "imtiaz": 0.789561534162365,
+          "metro": -0.06873715684094137,
+          "naheed": 1.0,
+          "springs": 0.9974654541736264
+        },
+        "springs": {
+          "alfatah": NaN,
+          "chaseup": NaN,
+          "imtiaz": NaN,
+          "metro": 0.7638032331479099,
+          "naheed": 0.9974654541736264,
+          "springs": 1.0
+        }
+      },
+      "sync_score": 0.3389,
+      "interpretation": "Mean cross-store price correlation = 0.339. Low synchronization across stores."
+    }
+  }
+}

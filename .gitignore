@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data files — parquet files too large for GitHub (CSVs kept)
+data/raw/*.parquet
+data/processed/*.parquet
+data/matched/*.parquet
+data/analysis/product_dispersion.csv
+
+# Logs & debug outputs
+logs/
+*.log
+
+# Playwright browser cache
+.playwright/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Session / cache files
+config/imtiaz_session_*.json
+config/imtiaz_location_*.json
+storage/
