@@ -53,9 +53,12 @@ st.markdown("""
   [data-testid="stHeader"] { background: transparent !important; }
   [data-testid="stToolbar"] { visibility: hidden; }
 
-  /* ── Hide the sidebar collapse button so it stays open always ── */
+  /* ── Hide ALL sidebar open/close toggle buttons ── */
   [data-testid="stSidebarCollapseButton"],
-  [data-testid="collapsedControl"] { display: none !important; }
+  [data-testid="collapsedControl"],
+  button[aria-label="Close sidebar"],
+  button[aria-label="Open sidebar"],
+  button:has(> [data-testid="stIconMaterial"]) { display: none !important; }
 
   /* ── Sidebar ── */
   [data-testid="stSidebar"],
